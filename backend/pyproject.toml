@@ -1,0 +1,22 @@
+[project]
+name = "as_we_may_think_backend"
+version = "0.1.0"
+description = "FastAPI backend with SQLite for As We May Think project"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "aiosqlite",
+    "sqlmodel",
+    "feedparser",
+    "httpx",
+    "pytest",
+    "pytest-asyncio",
+    "python-dateutil",
+    "llama-cpp-python",
+    "faiss-cpu",
+    "transformers",
+    "torch",
+    "sentence-transformers",
+    "python-multipart"
+]
