@@ -7,7 +7,7 @@ class LinkText extends StatelessWidget {
   final Function(String) onNoteLinkTap;
 
   // Regular expression to match links in the format [text](note:id)
-  static final RegExp _linkPattern = RegExp(r'\[(.+?)\]\(note:([a-f0-9-]+)\)');
+  static final RegExp _linkPattern = RegExp(r'\[(.+?)\]\(note:([a-zA-Z0-9-]+)\)');
 
   const LinkText({
     Key? key,
